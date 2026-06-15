@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Node / Next.js
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.pnpm-store/
+
+# Playwright
+/e2e/test-results/
+/e2e/playwright-report/
+
+# Go build output
+/api/api
+/api/dev-practice-todo
