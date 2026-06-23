@@ -130,6 +130,7 @@ func TestDelete(t *testing.T) {
 
 func TestDeleteMissingReturns404(t *testing.T) {
 	srv := newTestServer()
+	 := newTestServer()  
 	rec := httptest.NewRecorder()
 	srv.ServeHTTP(rec, httptest.NewRequest(http.MethodDelete, "/tasks/999", nil))
 	if rec.Code != http.StatusNotFound {
